@@ -1,0 +1,21 @@
+
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    color: black;
+    /* margin: 10px; */
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px
+}
+
+.tabs {
+    display: flex;
+    margin: 10px
+}
+
+MdHome {
+    color: black;
+    
+}
