@@ -1,11 +1,20 @@
 import React from "react";
 import './CharacterCard.css';
+import styled from 'styled-components';
+
+const Card = styled.div`
+  display: flex;
+  height: fit-content;
+  width: fit-content;
+  text-align: center;
+  margin: 20px;
+`;
 
 export default function CharacterCard(props) {
   const character = props.character;
 
   return (
-      <div className='card'>
+      <Card className='card'>
         <div className='name'>
           <h2>{character.name}</h2>
         </div>
@@ -19,6 +28,6 @@ export default function CharacterCard(props) {
             <p>status: {character.status}</p>
           </div>
         </div>
-      </div>
+      </Card>
   );
 }
