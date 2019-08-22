@@ -1,0 +1,28 @@
+.card {
+    display: flex;
+    text-align: center;
+    margin: 20px;
+    flex-direction: column;
+    border: 2px solid black;
+}
+
+.image {
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.image img {
+    max-width: 150px;
+}
+
+.image h2 {
+    margin-top: 10px;
+}
+
+.character-info {
+    width: 300px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start
+}
